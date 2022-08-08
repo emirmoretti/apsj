@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+$link-color: rgb(255, 227, 194);
+$link-underline: rgb(255, 0, 149);
+$link-grad-one: 0px;
+$link-grad-two: 1px;
+$ctx-bg: rgb(29, 18, 47);
+$ctx-color: rgb(240, 241, 244);
+
+.section-title {
+    padding-bottom: 50px;
+}
+
+
+hr {
+    height: 2px;
+    width: 60px;
+    background-color: red;
+    position: relative;
+    border: 0;
+    margin: 30px 0 0;
+    opacity: 1;
+}
