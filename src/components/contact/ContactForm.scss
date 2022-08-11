@@ -1,0 +1,28 @@
+#contact-section {
+    padding: 100px 0px;
+    background-color: #f6f6f6;
+    form {
+        padding: 30px 0px;
+        label{
+            font-size: 12px;
+            font-weight: 400;
+            font-family: 'Playfair Display', serif;
+        }
+        .form-control {
+            display: block;
+            width: 100%;
+            padding: 6px 12px;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #555;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 2px;
+            &:focus{
+                border-color: inherit;
+                outline: 0;
+                box-shadow: transparent;
+            }
+        }
+    }
+}

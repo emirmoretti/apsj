@@ -9,12 +9,12 @@ const Hero = () => {
       <Container>
         <Row className="row-container align-items-center">
           <Col md={6} className="intro-text">
-            <h1>
+            <h1 id="section-hero__title">
               Apostolado de la preciosisima sangre <br />
               de
               <span className="color"> Jesuscristo</span>
             </h1>
-            <p>Consolar es Adorar</p>
+            <p>Consolar es Adorar.</p>
             <div className="clearfix"></div>
           </Col>
           <Col md={6} className="img-col">
