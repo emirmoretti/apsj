@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronLeft, faCircleChevronRight, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { Container, Row, Col } from "react-bootstrap";
 import "./Gallery.css";
+import './gallery.scss'
 
 const Gallery = ({ galleryImages }) => {
   const [slideNumber, setSlideNumber] = useState(0);
@@ -29,7 +30,7 @@ const Gallery = ({ galleryImages }) => {
   };
 
   return (
-    <div className="gallery-section min-vh-100">
+    <div id='gallery-section' className="gallery-section min-vh-100">
       <Container>
         {openModal && (
           <div className="sliderWrap">
@@ -43,8 +44,7 @@ const Gallery = ({ galleryImages }) => {
         )}
 
         <div className="section-title">
-          <h2>Momentos compartidos con nuestros hermanos</h2>
-          <hr />
+          <h3>Momentos compartidos con nuestros hermanos</h3>
         </div>
 
         <div className="galleryWrap">

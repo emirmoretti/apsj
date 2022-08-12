@@ -1,0 +1,15 @@
+#gallery-section {
+    .section-title {
+        h3 {
+            color: white;
+            display: block;
+            text-align: center;
+            text-decoration-line:underline;
+            text-underline-offset: 10px;
+            font-size: clamp(1rem, 2.5vw, 2rem); 
+            line-height: 2;
+            text-decoration-color: #e6ab67;
+            filter: drop-shadow(0 0 0.75rem rgb(22, 6, 10));
+        }
+    }
+}

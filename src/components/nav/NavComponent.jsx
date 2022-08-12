@@ -8,7 +8,7 @@ import "./NavComponent.scss";
 const NavComponent = () => {
   return (
     <header>
-      <Navbar bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" >
         <Container>
           <Navbar.Brand href="#home">
             <img src="./images/logo.jfif" width="122" height="67" className="d-inline-block align-top" />
