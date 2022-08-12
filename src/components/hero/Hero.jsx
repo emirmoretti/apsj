@@ -1,6 +1,6 @@
 import React from "react";
 import "./Hero.scss";
-import Jesuscrito from "../../assets/jesuscristo.jpg";
+import Jesuscrito from "../../assets/images/jesuscristo.jpg";
 import { Row, Col, Container } from "react-bootstrap";
 
 const Hero = () => {

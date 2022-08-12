@@ -11,7 +11,7 @@ const NavComponent = () => {
       <Navbar bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
-            <img src="./images/logo.png" width="122" height="67" className="d-inline-block align-top" />
+            <img src="./images/logo.jfif" width="122" height="67" className="d-inline-block align-top" />
             <span className="d-none d-md-inline-block">
               Apostolado de la Preciosísima Sangre <br /> de Jesuscristo
             </span>
