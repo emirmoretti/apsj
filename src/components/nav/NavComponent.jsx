@@ -20,10 +20,9 @@ const NavComponent = () => {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto">
               <Link to="/" className="nav-link">Inicio</Link>
-              <Link to="/" className="nav-link">Nosotros</Link>
-              <Link to="/" className="nav-link">Oraciones</Link>
-              <Link to="/" className="nav-link">Información</Link>
-              <Link to="/contact" className="nav-link">Contacto</Link>
+              <Link to="/nosotros" className="nav-link">Nosotros</Link>
+              <Link to="/oraciones" className="nav-link">Oraciones</Link>
+              <Link to="/contacto" className="nav-link">Contacto</Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

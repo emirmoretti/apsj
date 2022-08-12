@@ -52,8 +52,8 @@ const Gallery = ({ galleryImages }) => {
             {galleryImages &&
               galleryImages.map((slide, index) => {
                 return (
-                  <Col md={4}>
-                    <div className="single" key={index} onClick={() => handleOpenModal(index)}>
+                  <Col md={4} key={index} >
+                    <div className="single" onClick={() => handleOpenModal(index)}>
                       <img src={slide.img} alt="" />
                     </div>
                   </Col>

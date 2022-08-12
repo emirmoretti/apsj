@@ -20,7 +20,7 @@ const About = () => {
             <a>Visitar</a>
           </Col>
           <Col md={4}>
-            <h3>Historia</h3>
+            <h3>Oraciones</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem delectus impedit veritatis animi voluptatum?
               Nobis molestias ea, tempore eveniet qui, totam reiciendis est nesciunt quasi sequi ipsum temporibus quo.
@@ -28,7 +28,7 @@ const About = () => {
             <a>Visitar</a>
           </Col>
           <Col md={4}>
-            <h3>Oraciones</h3>
+            <h3>Información</h3>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio exercitationem delectus impedit veritatis animi voluptatum?
               Nobis molestias ea, tempore eveniet qui, totam reiciendis est nesciunt quasi sequi ipsum temporibus quo.
