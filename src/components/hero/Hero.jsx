@@ -12,7 +12,7 @@ const Hero = () => {
             <h1 id="section-hero__title">
               Apostolado de la preciosisima sangre <br />
               de
-              <span className="color"> Jesuscristo</span>
+              <span className="color"> Jesucristo</span>
             </h1>
             <p>Consolar es Adorar.</p>
             <div className="clearfix"></div>

@@ -1,3 +1,24 @@
 #section-oraciones {
     padding: 100px 0px;
+    background-color: #D1D1D1;
+    .section-title {
+        padding-bottom: 40px;
+        h2 {
+            text-decoration-line: underline;
+            text-decoration-color: #e6ab67;
+            text-decoration-thickness: 8px;
+            text-underline-offset: 10px;
+            margin-bottom: 20px;
+        }
+        span {
+            color: white;
+            font-weight: bold;
+        }
+    }
+    .oraciones-conteiner {
+        .audio-container {
+            width: 40%;
+
+        }
+    }
 }

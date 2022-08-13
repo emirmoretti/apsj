@@ -1,15 +1,16 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
+import './styles/Nosotros.scss'
 
 const Nosotros = () => {
   return (
-    <div>
-      <div className="section-title">
-        <h2>Introducción a la Preciosísima Sangre de Jesuscristo</h2>
+    <div id="section-nosotros">
+      <div className="first-section-title">
+        <h2>Introducción a la Preciosísima Sangre de Jesucristo</h2>
       </div>
       <Container>
         <div className="video-container">
-          <div className="ratio ratio-16x9">
+          <div className="ratio ratio-21x9">
             <iframe
               src="https://drive.google.com/file/d/1iTuTKvJUuI_hbKvi51fQCK1J4R95R0C5/preview"
               allow="autoplay"
@@ -55,6 +56,10 @@ const Nosotros = () => {
               visita frecuente al Señor en el Santísimo Sacramento y en la exposición del Santísimo Sacramento. En estos también vemos la
               devoción a la Preciosa Sangra de Jesucristo, porque como una persona viva, Su Sangre no puede ser separada de Su Cuerpo.
             </p>
+            <blockquote>
+              + Ayo - María Atoyebi. OP Obispo de la Diócesis de Llorin (Nigeria) 17 de Junio de 2007 Solemnidad del Cuerpo y la Sangre de
+              Cristo.
+            </blockquote>
           </div>
           <div className="section-title">
             <h4>La devoción a la preciosa sangre.</h4>
