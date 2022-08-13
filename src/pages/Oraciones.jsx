@@ -38,7 +38,7 @@ const Oraciones = () => {
           <div className="segundo-parrafo">
             <h3>Consagrarse</h3>
             <h4>Requisitos para Consagrarse a la sangre preciosa de Jesucristo</h4>
-            <Row>
+            <Row className="align-items-center">
               <Col>
                 <ol>
                   <li>Ser bautizado en la fe católica y poder recibir los Sacramentos.</li>
@@ -52,8 +52,8 @@ const Oraciones = () => {
                   <li>Consagración</li>
                 </ol>
               </Col>
-              <Col>
-                <div>
+              <Col md={6}>
+                <div className="d-flex justify-content-center">
                   <img className="img-fluid" src={img} alt="" />
                 </div>
               </Col>
@@ -63,49 +63,68 @@ const Oraciones = () => {
           <div className="llamados-oraciones">
             <h3>Llamados de oracion</h3>
             <Row>
-              <Col md={4}>
-                <h4>1 - Getsemaní</h4>
-                <p>
-                  Este llamado nos pide acompañar a Jesús en la Hora de oración de Getsemaní, por lo menos 1 hora entre 12 am y 3 am, cada
-                  jueves a viernes. (Oraciones contenidas en el libro de Oraciones o Devocionario)
-                </p>
-                <div className="p-2">
-                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+              <Col md={6}>
+                <div className="llamados-oraciones__container">
+                  <h4>1 - Getsemaní</h4>
+                  <p>
+                    Este llamado nos pide acompañar a Jesús en la Hora de oración de Getsemaní, por lo menos 1 hora entre 12 am y 3 am, cada
+                    jueves a viernes. (Oraciones contenidas en el libro de Oraciones o Devocionario)
+                  </p>
+                  <div className="p-2">
+                    <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                  </div>
                 </div>
               </Col>
-              <Col md={4}>
-                <h4>2 - Tercer Viernes de Reparación</h4>
-                <p>
-                  La reparación del tercer viernes es una parte crucial de esta devoción. Se realiza de acuerdo al programa de reparación,
-                  preferentemente frente al Santísimo Sacramento, cada tercer viernes de mes. El llamado del Cenáculo es para todos los
-                  hombres y mujeres que aman a Dios.
-                </p>
+              <Col md={6}>
+                <div>
+                  <h4>2 - Tercer Viernes de Reparación</h4>
+                  <p>
+                    La reparación del tercer viernes es una parte crucial de esta devoción. Se realiza de acuerdo al programa de reparación,
+                    preferentemente frente al Santísimo Sacramento, cada tercer viernes de mes. El llamado del Cenáculo es para todos los
+                    hombres y mujeres que aman a Dios.
+                  </p>
+                  <div className="p-2">
+                    <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                  </div>
+                </div>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <h4>3 - Las 3 Novenas del Gran Mes de Julio</h4>
                 <p>
                   Mes dedicado a la Preciosísima Sangre de Nuestro Señor Jesucristo. En este mes se realizan tres grandes novenas: del 1-9
                   en Honor a los 9 Coros de Ángeles; del 13-15 en Honor a la Santísima Trinidad y del 20-31 por el Nuevo Israel (la Iglesia)
                 </p>
+                <div className="p-2">
+                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                </div>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <h4>4 - La Hora del Sello</h4>
                 <p>
                   La Santísima Trinidad, desciende personalmente al alma con el Bautismo, posee al alma con la Confirmación, y renueva el
                   Gran Sello con la Reconciliación. Cada viernes de 12 pm a 3pm los consagrados deben meditar sobre la pasión y muerte del
                   Señor.
                 </p>
+                <div className="p-2">
+                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                </div>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <h4>5 - Reparación Nacional de Septiembre</h4>
                 <p>
                   La Reparación del mes de septiembre es un momento en el que la Adoración Se realiza del 13 al 16 de septiembre cada año.
                   Es un encuentro de pecadores, suplicando misericordia y la gracia para ser mejores.
                 </p>
+                <div className="p-2">
+                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                </div>
               </Col>
-              <Col md={4}>
+              <Col md={6}>
                 <h4>6 - Reavivamiento de Pentecostés</h4>
                 <p>El llamado consiste en una VIGILIA DE “TRES DIAS DE ESPERA” ANTES DEL DOMINGO DE PENTECOSTÉS.</p>
+                <div className="iframe-container p-2">
+                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview"></Audio>
+                </div>
               </Col>
             </Row>
           </div>
@@ -117,6 +136,26 @@ const Oraciones = () => {
                   <strong>Pureza: </strong> Solo las almas puras entran al Cielo. Este llamado es urgente, en vista de la avalancha de
                   impureza, que los agentes del Anticristo han desencadenado en el mundo y en la Iglesia. En muchos mensajes el Cielo habla
                   de la importancia de la pureza en nosotros.
+                </p>
+              </li>
+              <li>
+                <p>
+                  <strong>Cruz de Perfección: </strong> La Verdad, el Perdón, la Humildad y el Amor son retos espirituales muy complejos que
+                  se presentan perpetuamente durante la vida de un Cristiano, algunas veces en momentos excesivamente complicados dentro de
+                  nuestro viaje espiritual. Jesús le enseña a Bernabé cómo llevar a la perfección esta carga crucial hacia la puerta de
+                  salvación.
+                </p>
+              </li>
+              <li>
+                <strong>Jesús en la Santa Eucaristía</strong> Los católicos están llamados a rendir culto y a adorar la Santa Eucaristía,
+                pero algunos católicos son negligentes y están despreocupados hacia el centro y la cima de la adoración cristiana: numerosos
+                llamados de Jesús en Sus mensajes de la Preciosa Sangre están orientados hacia los católicos a fin de ayudarlos a volver al
+                verdadero culto y adoración de este Sacramento.
+              </li>
+              <li>
+                <p>
+                  <strong>Ayudar al hambriento / necesitado:</strong> aunado a los anteriores llamados, hay uno más reciente de nuestro
+                  Señor para este apostolado (y para la Iglesia en general) en hacer más por el pobre necesitado.
                 </p>
               </li>
             </ul>

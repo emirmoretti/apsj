@@ -1,27 +1,32 @@
 import React from "react";
+import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import './styles/Nosotros.scss'
+import nwoye from '../assets/images/nwoye.jpg'
+
+import "./styles/Nosotros.scss";
 
 const Nosotros = () => {
   return (
     <div id="section-nosotros">
       <div className="first-section-title">
         <h2>Introducción a la Preciosísima Sangre de Jesucristo</h2>
+        <Container>
+          <div className="video-container">
+            <div className="ratio ratio-21x9">
+              <iframe
+                src="https://drive.google.com/file/d/1iTuTKvJUuI_hbKvi51fQCK1J4R95R0C5/preview"
+                allow="autoplay"
+                className="embed-responsive-item"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </Container>
       </div>
       <Container>
-        <div className="video-container">
-          <div className="ratio ratio-21x9">
-            <iframe
-              src="https://drive.google.com/file/d/1iTuTKvJUuI_hbKvi51fQCK1J4R95R0C5/preview"
-              allow="autoplay"
-              className="embed-responsive-item"
-              allowFullScreen
-            ></iframe>
-          </div>
-        </div>
         <div className="info-container">
           <div className="section-title">
-            <h3>Sobre Nosotros</h3>
+            <h3 className="underline">Sobre Nosotros</h3>
             <h4>DEVOCION A LA PRECIOSISIMA SANGRE DE NUESTRO SEÑOR JESUCRISTO</h4>
           </div>
           <div className="text-first">
@@ -65,15 +70,29 @@ const Nosotros = () => {
             <h4>La devoción a la preciosa sangre.</h4>
           </div>
           <div>
-            <p>
-              EN 1995, exactamente a las 3:00 p.m, la hora de la Divina Misericordia, Nuestro Señor Jesucristo llamó, por primera vez, a
-              Bernabé Nwoye, un joven del poblado de Olo, Estado de Enugu, en Nigeria, y le pidió que lo consolara y adorara su Preciosísima
-              Sangre. En una visión, dos años más tarde, el Señor le dio la Coronilla de la Preciosa Sangre y todas las oraciones que la
-              conforman. Los mensajes, oraciones, himnos y coros, así como las instrucciones, dadas directamente por Nuestro Señor, Su Madre
-              Mía, los Ángeles y Santos, desde el año 1997 hasta el presente, constituyen la Devoción a la Preciosa Sangre. En esta
-              publicación, solo presentamos las oraciones dadas a Bernabé, mientras reservamos los mensajes hasta que se otorgue la
-              aprobación Eclesial.
-            </p>
+            <Row>
+              <Col>
+                <div>
+                  <p>
+                    EN 1995, exactamente a las 3:00 p.m, la hora de la Divina Misericordia, Nuestro Señor Jesucristo llamó, por primera vez,
+                    a Bernabé Nwoye, un joven del poblado de Olo, Estado de Enugu, en Nigeria, y le pidió que lo consolara y adorara su
+                    Preciosísima Sangre. En una visión, dos años más tarde, el Señor le dio la Coronilla de la Preciosa Sangre y todas las
+                    oraciones que la conforman. Los mensajes, oraciones, himnos y coros, así como las instrucciones, dadas directamente por
+                    Nuestro Señor, Su Madre Mía, los Ángeles y Santos, desde el año 1997 hasta el presente, constituyen la Devoción a la
+                    Preciosa Sangre. En esta publicación, solo presentamos las oraciones dadas a Bernabé, mientras reservamos los mensajes
+                    hasta que se otorgue la aprobación Eclesial.
+                  </p>
+                </div>
+              </Col>
+              <Col>
+                <div className="w-75">
+                  <figure className="figure">
+                        <img src={nwoye} alt="bernabe nwoye" className="figure-img img-fluid rounded"/>
+                        <figcaption className="figure-caption"> - Bernabé Nwoye</figcaption>
+                  </figure>
+                </div>
+              </Col>
+            </Row>
             <h5>La devoción está compuesta por lo siguiente:</h5>
             <ol>
               <li>
