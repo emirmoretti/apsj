@@ -1,7 +1,8 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Container from "react-bootstrap/Container";
-import nwoye from '../assets/images/nwoye.jpg'
+import nwoye from "../assets/images/nwoye.jpg";
+import logo3 from "../assets/images/logo3.jpg";
 
 import "./styles/Nosotros.scss";
 
@@ -29,21 +30,30 @@ const Nosotros = () => {
             <h3 className="underline">Sobre Nosotros</h3>
             <h4>DEVOCION A LA PRECIOSISIMA SANGRE DE NUESTRO SEÑOR JESUCRISTO</h4>
           </div>
-          <div className="text-first">
-            <p>
-              La Devoción a la Preciosísima Sangre de Nuestro Jesucristo no es una nueva devoción en la Santa Iglesia Católica. Es tan
-              antigua como el primer Jueves Santo, cuando Jesús instituyó el Sacerdocio y la Santa Eucaristía. La proclamación de las
-              siguientes palabras en la noche antes de su Sufrimiento: “Este es mi cuerpo, que es entregado por vosotros. Haced esto en
-              memoria mía. Este cáliz es la nueva alianza en mi sangre, que es derramada por vosotros”. (Lc. 22, 19-20), evocó de los
-              Apóstoles un fervor religioso sublime o reverencia. Antes de esto, Jesús había realizado grandes milagros, pero ellos vieron
-              el milagro de milagros en la institución de la Eucaristía, el Sacrificio de la Cruz, el sacrificio de la Nueva Ley, el
-              Sacramento más admirable, la presencia maravillosa, y el permanente memorial de la Pasión de Cristo. Viendo a Cristo
-              colocándose a si mismo, ante ellos, como un sacrificio de reconciliación o de salvación, y como comida de vida eterna, -el más
-              precioso y maravilloso banquete- los hizo a ellos adorar la maravillosa presencia con una fe que va más allá de lo
-              descriptible. Desde entonces ha sido siempre así en la Santa Iglesia Católica y lo seguirá siendo hasta que el Señor regrese
-              en su gloria. Este es el mandamiento del Señor. Debemos seguir proclamando a la muerte del Señor hasta que Él regrese (cfr.1
-              Co. 11,26).
-            </p>
+          <div className="first-text">
+            <Row className="p-3">
+              <Col md={8}>
+                <p>
+                  La Devoción a la Preciosísima Sangre de Nuestro Jesucristo no es una nueva devoción en la Santa Iglesia Católica. Es tan
+                  antigua como el primer Jueves Santo, cuando Jesús instituyó el Sacerdocio y la Santa Eucaristía. La proclamación de las
+                  siguientes palabras en la noche antes de su Sufrimiento: “Este es mi cuerpo, que es entregado por vosotros. Haced esto en
+                  memoria mía. Este cáliz es la nueva alianza en mi sangre, que es derramada por vosotros”. (Lc. 22, 19-20), evocó de los
+                  Apóstoles un fervor religioso sublime o reverencia. Antes de esto, Jesús había realizado grandes milagros, pero ellos
+                  vieron el milagro de milagros en la institución de la Eucaristía, el Sacrificio de la Cruz, el sacrificio de la Nueva Ley,
+                  el Sacramento más admirable, la presencia maravillosa, y el permanente memorial de la Pasión de Cristo. Viendo a Cristo
+                  colocándose a si mismo, ante ellos, como un sacrificio de reconciliación o de salvación, y como comida de vida eterna, -el
+                  más precioso y maravilloso banquete- los hizo a ellos adorar la maravillosa presencia con una fe que va más allá de lo
+                  descriptible. Desde entonces ha sido siempre así en la Santa Iglesia Católica y lo seguirá siendo hasta que el Señor
+                  regrese en su gloria. Este es el mandamiento del Señor. Debemos seguir proclamando a la muerte del Señor hasta que Él
+                  regrese (cfr.1 Co. 11,26).
+                </p>
+              </Col>
+              <Col>
+                <div>
+                  <img src={logo3} alt="" className="img-fluid" />
+                </div>
+              </Col>
+            </Row>
             <p>
               Mientras la Iglesia continúe celebrando la Santa Eucarística en obediencia al mandato del Señor, “Hagan esto en memoria Mía”,
               ella mantiene a través del tiempo su devoción a través de la Preciosa Sangre y Cuerpo de Nuestro Señor Jesucristo. Ella ofrece
@@ -69,9 +79,9 @@ const Nosotros = () => {
           <div className="section-title">
             <h4>La devoción a la preciosa sangre.</h4>
           </div>
-          <div>
-            <Row>
-              <Col>
+          <div className="second-text">
+            <Row className="align-items-center">
+              <Col md={6}>
                 <div>
                   <p>
                     EN 1995, exactamente a las 3:00 p.m, la hora de la Divina Misericordia, Nuestro Señor Jesucristo llamó, por primera vez,
@@ -85,15 +95,17 @@ const Nosotros = () => {
                 </div>
               </Col>
               <Col>
-                <div className="w-75">
+                <div className="mx-auto">
                   <figure className="figure">
-                        <img src={nwoye} alt="bernabe nwoye" className="figure-img img-fluid rounded"/>
-                        <figcaption className="figure-caption"> - Bernabé Nwoye</figcaption>
+                    <img src={nwoye} alt="bernabe nwoye" className="figure-img img-fluid rounded" />
+                    <figcaption className="figure-caption"> - Bernabé Nwoye</figcaption>
                   </figure>
                 </div>
               </Col>
             </Row>
-            <h5>La devoción está compuesta por lo siguiente:</h5>
+          </div>
+          <div className="third-text">
+            <h5 className="underline">La devoción está compuesta por lo siguiente:</h5>
             <ol>
               <li>
                 <h6>Coronilla.</h6>
