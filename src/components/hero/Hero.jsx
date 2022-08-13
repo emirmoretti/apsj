@@ -9,16 +9,18 @@ const Hero = () => {
       <Container>
         <Row className="row-container align-items-center">
           <Col md={6} className="intro-text">
-            <h1 id="section-hero__title">
-              Apostolado de la preciosisima sangre <br />
-              de
-              <span className="color"> Jesucristo</span>
-            </h1>
-            <p>Consolar es Adorar.</p>
+            <div data-aos="zoom-in" data-aos-duration="3000">
+              <h1 id="section-hero__title">
+                Apostolado de la preciosisima sangre <br />
+                de
+                <span className="color"> Jesucristo</span>
+              </h1>
+              <p>Consolar es Adorar.</p>
+            </div>
             <div className="clearfix"></div>
           </Col>
           <Col md={6} className="img-col">
-            <div className="img-container">
+            <div className="img-container" data-aos="zoom-in" data-aos-duration="3000">
               <img src={Jesuscrito} alt="jesuscristo" className="img-fluid rounded" />
             </div>
           </Col>

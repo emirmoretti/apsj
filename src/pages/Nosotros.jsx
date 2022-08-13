@@ -85,12 +85,12 @@ const Nosotros = () => {
                 <div>
                   <p>
                     EN 1995, exactamente a las 3:00 p.m, la hora de la Divina Misericordia, Nuestro Señor Jesucristo llamó, por primera vez,
-                    a Bernabé Nwoye, un joven del poblado de Olo, Estado de Enugu, en Nigeria, y le pidió que lo consolara y adorara su
-                    Preciosísima Sangre. En una visión, dos años más tarde, el Señor le dio la Coronilla de la Preciosa Sangre y todas las
-                    oraciones que la conforman. Los mensajes, oraciones, himnos y coros, así como las instrucciones, dadas directamente por
-                    Nuestro Señor, Su Madre Mía, los Ángeles y Santos, desde el año 1997 hasta el presente, constituyen la Devoción a la
-                    Preciosa Sangre. En esta publicación, solo presentamos las oraciones dadas a Bernabé, mientras reservamos los mensajes
-                    hasta que se otorgue la aprobación Eclesial.
+                    a <strong>Bernabé Nwoye</strong>, un joven del poblado de Olo, Estado de Enugu, en Nigeria, y le pidió que lo consolara
+                    y adorara su Preciosísima Sangre. En una visión, dos años más tarde, el Señor le dio la Coronilla de la Preciosa Sangre
+                    y todas las oraciones que la conforman. Los mensajes, oraciones, himnos y coros, así como las instrucciones, dadas
+                    directamente por Nuestro Señor, Su Madre Mía, los Ángeles y Santos, desde el año 1997 hasta el presente, constituyen la
+                    Devoción a la Preciosa Sangre. En esta publicación, solo presentamos las oraciones dadas a Bernabé, mientras reservamos
+                    los mensajes hasta que se otorgue la aprobación Eclesial.
                   </p>
                 </div>
               </Col>

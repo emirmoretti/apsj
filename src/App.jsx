@@ -4,10 +4,13 @@ import Home from "./pages/Home";
 import Nosotros from "./pages/Nosotros";
 import Oraciones from "./pages/Oraciones";
 import Contact from "./pages/Contact";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import "./App.scss";
 
 function App() {
+  AOS.init();
   return (
     <main className="App">
       <NavComponent />

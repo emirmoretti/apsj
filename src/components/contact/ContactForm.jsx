@@ -13,28 +13,63 @@ const ContactForm = () => {
         <Row>
           <Col md={4}>
             <h4>Información de contacto.</h4>
-            <div className="space"></div>
-            <p>Direccion</p>
-            <div className="space"></div>
-            <p>email</p>
-            <div className="space"></div>
-            <p>telefono</p>
+            <ul>
+              <li>
+                <strong>Telegram </strong>
+                <a href="https://web.telegram.org/z/#-308828770" target="_blank" rel="noopener noreferrer">
+                  Formación del APSJ
+                </a>
+              </li>
+              <li>
+                <strong>Whatsapp </strong>
+                <a href="https://wa.me/5492645187822" target="_blank" rel="noopener noreferrer">
+                  Servidor Nacional
+                </a>
+              </li>
+              <li>
+                <strong>Apostolado de la Preciosísima Sangre de Nuestro Señor Jesucristo </strong>
+                <a href="https://chat.whatsapp.com/FKf9lVhczp5JEeBbygz8ac" target="_blank" rel="noopener noreferrer">
+                  Link Whatsapp
+                </a>
+              </li>
+              <li>
+                <strong>Email </strong>
+                <a href="mailto:APS.de.argentina.oficial@gmail.com" target="_blank" rel="noopener noreferrer">
+                  APS.de.argentina.oficial@gmail.com
+                </a>
+              </li>
+            </ul>
           </Col>
           <Col md={8}>
-            <h4>Dejanos un mensaje</h4>
+            <h4>Contacto</h4>
             <form>
               <Row>
-                <Col className="" md={6}>
+                <Col className="mb-4" md={6}>
                   <div className="form-group">
-                    <input placeholder="nombre" className="form-control"></input>
+                    <input placeholder="Nombre" className="form-control"></input>
                   </div>
                 </Col>
                 <Col className="" md={6}>
                   <div className="form-group">
-                    <input className="form-control" placeholder="email"></input>
+                    <input className="form-control" placeholder="Apellido"></input>
                   </div>
                 </Col>
-                <Col className="mt-4" md={12}>
+                <Col className="mb-3" md={6}>
+                  <div className="form-group">
+                    <input placeholder="Teléfono" className="form-control"></input>
+                  </div>
+                </Col>
+                <Col className="" md={6}>
+                  <div className="form-group">
+                    <input className="form-control" placeholder="Email"></input>
+                  </div>
+                </Col>
+                <Col className="" md={12}>
+                  <div className="form-group">
+                    <input className="form-control" placeholder="Provincia"></input>
+                  </div>
+                </Col>
+                <Col className="mt-3" md={12}>
                   <div className="form-group">
                     <textarea className="form-control" placeholder="Mensaje aquí" rows={4}></textarea>
                   </div>
