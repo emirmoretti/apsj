@@ -2,6 +2,7 @@ import React from "react";
 import "./Hero.scss";
 import Jesuscrito from "../../assets/images/jesuscristo.jpg";
 import { Row, Col, Container } from "react-bootstrap";
+import arg from "../../assets/images/argentina.ico";
 
 const Hero = () => {
   return (
@@ -13,7 +14,10 @@ const Hero = () => {
               <h1 id="section-hero__title">
                 Apostolado de la preciosisima sangre <br />
                 de
-                <span className="color"> Jesucristo</span>
+                <span className="color"> Jesucristo </span> en Argentina
+                <span className="span-img">
+                  <img src={arg} alt="" srcset="" width="42px" />
+                </span>
               </h1>
               <p>Consolar es Adorar.</p>
             </div>
