@@ -1,8 +1,7 @@
 #section-oraciones {
-    padding: 100px 0px;
-    // background-color: #D1D1D1;
+    padding: 50px 0px;
     .section-title {
-        padding-bottom: 40px;
+        padding-bottom: 8px;
         h2 {
             text-decoration-line: underline;
             text-decoration-color: #ffbf75;
@@ -17,7 +16,10 @@
     }
     .oraciones-conteiner {
         .primer-parrafo {
-            padding: 20px 10px;
+            padding: 30px 0px;
+            p {
+                padding: 0px 30px;
+            }
         }
         .audio-container {
             width: 70%;

@@ -71,7 +71,7 @@ const Nosotros = () => {
               visita frecuente al Señor en el Santísimo Sacramento y en la exposición del Santísimo Sacramento. En estos también vemos la
               devoción a la Preciosa Sangra de Jesucristo, porque como una persona viva, Su Sangre no puede ser separada de Su Cuerpo.
             </p>
-            <blockquote>
+            <blockquote className="text-muted fs-6 fw-light">
               + Ayo - María Atoyebi. OP Obispo de la Diócesis de Llorin (Nigeria) 17 de Junio de 2007 Solemnidad del Cuerpo y la Sangre de
               Cristo.
             </blockquote>

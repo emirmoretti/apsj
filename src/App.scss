@@ -35,7 +35,26 @@ hr {
     text-decoration-line: underline;
     text-decoration-color: #e6ab67;
     text-decoration-thickness: 10px;
-    text-underline-offset: 5px;
     text-underline-offset: 10px;
     line-height: 1.6;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    color: white;
+    background-color: rgba(230, 171, 103, 1);
+    padding: 8px 0px;
+    text-transform: uppercase;
+}
+.sub-titulo {
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-family: "Playfair Display", serif;
+    color: rgba(255, 136, 0, 0.8);
+    text-decoration-line: underline;
+    text-decoration-color: rgba(165, 33, 31, 1);
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
 }
