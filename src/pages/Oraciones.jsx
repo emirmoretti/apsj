@@ -172,6 +172,95 @@ const Oraciones = () => {
           </div>
         </div>
       </Container>
+      <div className="lista_audios-container py-5">
+        <div className="section-title">
+          <h3 className="titulo">Lista de audios</h3>
+        </div>
+        <Container>
+          <Row>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline fs-3 lh-lg">Coronilla de la Preciosa Sangre de Jesucristo</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1AvSrKHBnNCft3-tC2DjgPNtW22M-dwm_/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline fs-3">Coronilla de Renovación</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1ie3r8PqFo03XDZ5OciIPAx19SFbppyXF/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Las 12 promesas de Nuestro Señor Jesucristo</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1ZQ-A5F81wXLjVUzKH5kBMZ7VhXPWQ-Qv/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oración de Expiación con la Corona de Espinas</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1br6_amyt3wQaCrCqQbqOB2GOCwePo6ex/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oración para el nuevo Israel</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1KxSvhWmPxXn-sFQg8bFURF_4qWOJw_IP/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oración por el Triunfo en la Cruz</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/14Q8aKo2nVOZ_Y3BvqZaXAWnf2drqlcO4/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oraciones de Consuelo a Jesucristo Agonizante</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/14THycx2f8YtJ8pzFGI3zAl3ajLIlFiys/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oraciones de Reparación a Jesucristo Agonizante</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1wNnmOWuGum_MFUl3oiRWZ__AY0zQcynr/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Oraciones místicas de Nuestro Señor Jesucristo</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1JiOm4exmgK86ZNahPLVVRbX2WXn6-TPX/preview" />
+                </div>
+              </div>
+            </Col>
+            <Col lg={4}>
+              <div className="oracion-audio-container">
+                <h4 className="underline lh-lg fs-3">Santo Rosario</h4>
+                <div className="p-3">
+                  <Audio audioUrl="https://drive.google.com/file/d/1vUEwKpfOVBE2P6H0TT_ovUNdRnpJ--yN/preview" />
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </div>
     </section>
   );
 };
