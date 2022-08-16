@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Playfair+Display:wght@400;500;600;700&display=swap");
 
+$color-red: #911D1C;
+
 html,
 body {
     text-rendering: optimizeLegibility !important;
@@ -44,7 +46,8 @@ hr {
     font-weight: bold;
     font-family: "Playfair Display", serif;
     color: white;
-    background-color: rgba(230, 171, 103, 1);
+    //background-color: rgba(230, 171, 103, 1);
+    background-color: #bd403a;
     padding: 8px 0px;
     text-transform: uppercase;
 }
@@ -57,4 +60,10 @@ hr {
     text-decoration-color: rgba(165, 33, 31, 1);
     text-decoration-thickness: 5px;
     text-underline-offset: 5px;
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
