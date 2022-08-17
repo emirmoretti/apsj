@@ -10,7 +10,7 @@ const Audio = ({ audioUrl }) => {
   let descargaLink = `https://drive.google.com/file/d/${id}/view`;
 
   return (
-    <div className="audio-container">
+    <div className="audio-container d-flex align-items-center justify-content-between">
       {/*<iframe src={audioUrl} ></iframe>*/}
       <audio controls="controls">
         <source src={urlAudio2} />
