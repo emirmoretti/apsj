@@ -4,7 +4,7 @@ const Audio = ({ audioUrl }) => {
   let string1 = audioUrl.split("d/")[1];
   /*/console.log(string1);*/
   let id = string1.split("/p")[0];
-  console.log(id);
+  //console.log(id);
   let urlAudio2 = `https://drive.google.com/uc?authuser=0&id=${id}&export=download
   `;
   let descargaLink = `https://drive.google.com/file/d/${id}/view`;

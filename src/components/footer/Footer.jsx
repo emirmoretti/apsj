@@ -3,51 +3,50 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer class="bg-dark py-5">
-      <div class="container">
-        <div class="row align-items-top text-center text-md-left text-white">
-          <div class="col-12 col-sm-6 col-md-4 ">
-            <h3>
-              <strong>Menu</strong>
-            </h3>
-            <nav class="nav flex-column ">
-              <Link to="/" className="nav-link">
-                Inicio
-              </Link>
-              <Link to="/nosotros" className="nav-link">
-                Nosotros
-              </Link>
-              <Link to="/devocion" className="nav-link">
-                Devoción
-              </Link>
-              <Link to="/oraciones" className="nav-link">
-                Oraciones
-              </Link>
-              <Link to="/consagracion" className="nav-link">
-                Consagración
-              </Link>
-              <Link to="/llamados" className="nav-link">
-                Llamados
-              </Link>
-              <Link to="/contacto" className="nav-link">
-                Contacto
-              </Link>
-            </nav>
+    <footer className="fdb-block footer-small bg-dark p-4">
+      <div className="container">
+        <div className="row align-items-center">
+          <div className="col-12 col-md-8">
+            <ul className="nav justify-content-center justify-content-md-start">
+              <li className="nav-item">
+                <Link to="/" className="nav-link">
+                  Inicio
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/nosotros" className="nav-link">
+                  Nosotros
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/devocion" className="nav-link">
+                  Devoción
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/oraciones" className="nav-link">
+                  Oraciones
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/consagracion" className="nav-link">
+                  Consagración
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/llamados" className="nav-link">
+                  Llamados
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contacto" className="nav-link">
+                  Contacto
+                </Link>
+              </li>
+            </ul>
           </div>
 
-          <div class="col-12 col-sm-6 col-md-4 mt-4 mt-sm-0">
-            <h3>
-              <strong>Contacto</strong>
-            </h3>
-            <p>APS.de.argentina.oficial@gmail.com</p>
-            <p>+54 264 5187822</p>
-          </div>
-
-          <div class="col-12 col-md-4 mt-5 text-md-left">
-            <div className="center">
-              <img src="/images/logo.jfif" alt="logo" className="img-fluid w-50" />
-            </div>
-          </div>
+          <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right text-white">© 2022 APSJ. All Rights Reserved</div>
         </div>
       </div>
     </footer>

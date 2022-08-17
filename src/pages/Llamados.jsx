@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const Llamados = () => {
   return (
     <section className="pt-5">
-      <Container>
+      <Container className="py-4">
         <div className="pb-4">
           <h3 className="titulo">Llamado a la santidad</h3>
           <Container className="pt-3">

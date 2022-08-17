@@ -8,10 +8,10 @@ import getsemani2 from "../assets/images/getsemani2.jpg";
 const Contact = () => {
   return (
     <section id="section-contacto">
-      <Container className="mb-5">
+      <Container className="mb-5 py-5">
         <h3 className="py-4 titulo">Información Importante</h3>
         <p className="fs-4 fst-italic py-3">
-          Link al Apostolado Mundial de la Preciosisima Sangre de Nuestro Señor Jesucristo. <br/>
+          Link al Apostolado Mundial de la Preciosisima Sangre de Nuestro Señor Jesucristo. <br />
           <a href="https://worldapostolateofpreciousblood.com/" target="_blank" rel="noopener noreferrer" className="d-block text-center">
             APOSTOLADO MUNDIAL DE LA PRECIOSISIMA SANGRE DE NUESTRO SEÑOR JESUCRISTO
           </a>
@@ -27,7 +27,7 @@ const Contact = () => {
               </p>
             </Col>
             <Col md={12}>
-              <div className="d-flex justify-content-center">
+              <div className="d-flex justify-content-center" data-aos="fade-up" data-aos-duration="3000">
                 <img src={getsemani2} alt="getsemani" className="img-fluid shadow-lg bg-body" />
               </div>
             </Col>
