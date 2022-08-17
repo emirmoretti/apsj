@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
+import img10 from "../assets/images/imagen-3.jpeg";
 
 const Llamados = () => {
   return (
@@ -8,14 +9,25 @@ const Llamados = () => {
         <div className="pb-4">
           <h3 className="titulo">Llamado a la santidad</h3>
           <Container className="pt-3">
-            <p className="fs-5">
-              La Devoción a la Preciosa Sangre, es un llamado diario a la santidad. Al menos la Coronilla (después del Rosario de nuestra
-              Santa Madre), la Letanía de la Sangre Preciosa y la Consagración deben ser rezadas diariamente por un devoto. Esta Devoción es
-              el arma fundamental contra Satanás y los espíritus malignos.{" "}
-            </p>
+            <Row className="justify-content-center align-items-center">
+              <Col md={5}>
+                <div data-aos="fade-right" data-aos-duration="3000">
+                  <p className="fs-4 lh-base">
+                    La Devoción a la Preciosa Sangre, es un llamado diario a la santidad. Al menos la Coronilla (después del Rosario de
+                    nuestra Santa Madre), la Letanía de la Sangre Preciosa y la Consagración deben ser rezadas diariamente por un devoto.
+                    Esta Devoción es el arma fundamental contra Satanás y los espíritus malignos.{" "}
+                  </p>
+                </div>
+              </Col>
+              <Col md={3}>
+                <div data-aos="fade-left" data-aos-duration="3000">
+                  <img src={img10} alt="imagen santa" className="img-fluid" />
+                </div>
+              </Col>
+            </Row>
           </Container>
         </div>
-        <div className="llamados-oraciones">
+        <div className="llamados-oraciones" data-aos="fade-up" data-aos-duration="3000">
           <h3 className="titulo">Llamados de oracion</h3>
           <Row>
             <Col md={6}>
@@ -73,51 +85,51 @@ const Llamados = () => {
             </Col>
           </Row>
         </div>
-        <div className="llamados-obras">
-            <h3 className="titulo">Llamados de obras</h3>
-            <Row>
-              <Col md={6}>
-                <div className="p-3">
-                  <h4 className="fs-3 fw-bold underline text-center pb-4">Pureza</h4>
-                  <p className="fs-5">
-                    Solo las almas puras entran al Cielo. Este llamado es urgente, en vista de la avalancha de impureza, que los agentes del
-                    Anticristo han desencadenado en el mundo y en la Iglesia. En muchos mensajes el Cielo habla de la importancia de la
-                    pureza en nosotros.
-                  </p>
-                </div>
-              </Col>
-              <Col md={6}>
-                <div className="p-3">
-                  <h4 className="fs-3 fw-bold underline text-center pb-4">Cruz de Perfección</h4>
-                  <p className="fs-5">
-                    La Verdad, el Perdón, la Humildad y el Amor son retos espirituales muy complejos que se presentan perpetuamente durante
-                    la vida de un Cristiano, algunas veces en momentos excesivamente complicados dentro de nuestro viaje espiritual. Jesús
-                    le enseña a Bernabé cómo llevar a la perfección esta carga crucial hacia la puerta de salvación.
-                  </p>
-                </div>
-              </Col>
-              <Col md={6}>
-                <div className="p-3">
-                  <h4 className="fs-3 fw-bold underline text-center pb-4">Jesús en la Santa Eucaristía</h4>
-                  <p className="fs-5">
-                    Los católicos están llamados a rendir culto y a adorar la Santa Eucaristía, pero algunos católicos son negligentes y
-                    están despreocupados hacia el centro y la cima de la adoración cristiana: numerosos llamados de Jesús en Sus mensajes de
-                    la Preciosa Sangre están orientados hacia los católicos a fin de ayudarlos a volver al verdadero culto y adoración de
-                    este Sacramento.
-                  </p>
-                </div>
-              </Col>
-              <Col md={6}>
-                <div className="p-3">
-                  <h4 className="fs-3 fw-bold underline text-center pb-4">Ayudar al Hambriento / Necesitado</h4>
-                  <p className="fs-5">
-                    Aunado a los anteriores llamados, hay uno más reciente de nuestro Señor para este apostolado (y para la Iglesia en
-                    general) en hacer más por el pobre necesitado.
-                  </p>
-                </div>
-              </Col>
-            </Row>
-          </div>
+        <div className="llamados-obras" data-aos="fade-up" data-aos-duration="3000">
+          <h3 className="titulo">Llamados de obras</h3>
+          <Row>
+            <Col md={6}>
+              <div className="p-3">
+                <h4 className="fs-3 fw-bold underline text-center pb-4">Pureza</h4>
+                <p className="fs-5">
+                  Solo las almas puras entran al Cielo. Este llamado es urgente, en vista de la avalancha de impureza, que los agentes del
+                  Anticristo han desencadenado en el mundo y en la Iglesia. En muchos mensajes el Cielo habla de la importancia de la pureza
+                  en nosotros.
+                </p>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className="p-3">
+                <h4 className="fs-3 fw-bold underline text-center pb-4">Cruz de Perfección</h4>
+                <p className="fs-5">
+                  La Verdad, el Perdón, la Humildad y el Amor son retos espirituales muy complejos que se presentan perpetuamente durante la
+                  vida de un Cristiano, algunas veces en momentos excesivamente complicados dentro de nuestro viaje espiritual. Jesús le
+                  enseña a Bernabé cómo llevar a la perfección esta carga crucial hacia la puerta de salvación.
+                </p>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className="p-3">
+                <h4 className="fs-3 fw-bold underline text-center pb-4">Jesús en la Santa Eucaristía</h4>
+                <p className="fs-5">
+                  Los católicos están llamados a rendir culto y a adorar la Santa Eucaristía, pero algunos católicos son negligentes y están
+                  despreocupados hacia el centro y la cima de la adoración cristiana: numerosos llamados de Jesús en Sus mensajes de la
+                  Preciosa Sangre están orientados hacia los católicos a fin de ayudarlos a volver al verdadero culto y adoración de este
+                  Sacramento.
+                </p>
+              </div>
+            </Col>
+            <Col md={6}>
+              <div className="p-3">
+                <h4 className="fs-3 fw-bold underline text-center pb-4">Ayudar al Hambriento / Necesitado</h4>
+                <p className="fs-5">
+                  Aunado a los anteriores llamados, hay uno más reciente de nuestro Señor para este apostolado (y para la Iglesia en
+                  general) en hacer más por el pobre necesitado.
+                </p>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   );
