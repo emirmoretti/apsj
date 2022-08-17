@@ -19,7 +19,7 @@ const Hero = () => {
                   <img src={arg} alt="" srcset="" width="42px" />
                 </span>
               </h1>
-              <p className="text-white fst-italic"> - Sangre Preciosa de Jesucristo, Salvanos a nosotros y al mundo entero</p>
+              <p className="text-white fst-italic"> - Sangre Preciosa de Jesucristo, Salvanos a nosotros y al mundo entero.</p>
               <p>Consolar es Adorar.</p>
             </div>
             <div className="clearfix"></div>

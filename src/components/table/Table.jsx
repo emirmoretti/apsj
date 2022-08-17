@@ -2,7 +2,7 @@ import React from "react";
 
 const Table = () => {
   return (
-    <div className="table-container p-4">
+    <div className="table-container p-4" data-aos="fade-up" data-aos-duration="3000">
       <h4 className="underline py-3 fs-3 fst-italic">Comisión Nacional</h4>
       <table class="table table-striped">
         <thead>
@@ -57,7 +57,9 @@ const Table = () => {
             <td>Servidoras de Mendoza</td>
           </tr>
           <tr>
-            <th scope="row">Mirta Barrientos <br/> Carla Bratti</th>
+            <th scope="row">
+              Mirta Barrientos <br /> Carla Bratti
+            </th>
             <td>Servidoras de Santa Cruz</td>
           </tr>
         </tbody>

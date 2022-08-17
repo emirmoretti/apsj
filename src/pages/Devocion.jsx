@@ -34,7 +34,7 @@ const Devocion = () => {
             </Col>
           </Row>
         </div>
-        <div className="">
+        <div data-aos="fade-up" data-aos-duration="3000">
           <h5 className="underline py-5 fs-3 fst-italic">La devoción está compuesta por lo siguiente</h5>
           <ol className="fs-5">
             <li className="">

@@ -16,11 +16,11 @@ const Oraciones = () => {
           <div className="primer-parrafo">
             <Row>
               <Col md={8}>
-                <p className="fs-5 fst-italic">
+                <p data-aos="zoom-in" data-aos-duration="3000" className="fs-5 fst-italic">
                   Cada jueves de 11:00 pm a 03:00 am del viernes en la madrugada es la Hora de Getsemaní. Las siguientes oraciones deben ser
                   dichas durante este tiempo:
                 </p>
-                <ul className="fs-5">
+                <ul className="fs-5" data-aos="fade-right" data-aos-duration="3000">
                   <li>El Rosario de la Santísima Virgen María.</li>
                   <li>La Santa Coronilla de la Preciosa Sangre con Letanías.</li>
                   <li>Oración de Consagración a la Preciosa Sangre.</li>
@@ -32,7 +32,7 @@ const Oraciones = () => {
                 </ul>
               </Col>
               <Col>
-                <div>
+                <div data-aos="fade-left" data-aos-duration="3000">
                   <img src={getsemani} alt="" className="img-fluid shadow-lg p-3 mb-5 bg-body rounded"/>
                 </div>
               </Col>
@@ -42,7 +42,7 @@ const Oraciones = () => {
       </Container>
       <div className="lista_audios-container py-5">
         <div className="section-title">
-          <h3 className="text-center fs-2 text-white ">Lista de audios</h3>
+          <h3 className="text-center fs-2 text-white text-uppercase fw-bold fst-italic">Lista de audios</h3>
         </div>
         <Container>
           <Row>

@@ -40,7 +40,7 @@ const Contact = () => {
             Servidor Nacional <span className="fw-bold">Jose Luis Ejarque</span>, Teléfono/WhatsApp: +54 264 5187822.
           </p>
         </div>
-        <Table />
+        <Table/>
       </Container>
       <ContactForm />
     </section>
