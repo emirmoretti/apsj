@@ -1,26 +1,19 @@
 #section-oraciones {
     padding-top: 50px;
     .lista_audios-container {
-        background-color: #ffbf75;
-        h3 {
-            background-color: #ffbf75;
-            //background-color: #C48A46; apostolado
-            text-decoration-line: underline;
-            text-decoration-color: #bd403a;
-            text-decoration-thickness: 8px;
-            text-underline-offset: 10px;
-            margin-bottom: 20px;
-        }
+        background: url(../../assets/images/bgred-min.jpg);
         .oracion-audio-container {
             h4 {
+                text-decoration:solid;
+                text-decoration-line: underline;
                 text-decoration-color: white;
-                text-align: center;
+                text-decoration-thickness: 5px;
+                text-underline-offset: 10px;
+                text-align: start;
                 font-weight: bold;
-                background-color: #911D1C;
                 border-radius: 10px;
                 color: white;
                 padding: 10px;
-                box-shadow: 0 0 25px rgba(0, 0, 0, 0.4);
             }
             iframe {
                 border-radius: 30px;

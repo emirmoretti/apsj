@@ -42,7 +42,7 @@ const Oraciones = () => {
       </Container>
       <div className="lista_audios-container py-5">
         <div className="section-title">
-          <h3 className="titulo">Lista de audios</h3>
+          <h3 className="text-center fs-2 text-white ">Lista de audios</h3>
         </div>
         <Container>
           <Row>

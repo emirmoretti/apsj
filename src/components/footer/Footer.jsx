@@ -45,7 +45,7 @@ const Footer = () => {
 
           <div class="col-12 col-md-4 mt-5 text-md-left">
             <div className="center">
-              <img src="/public/images/logo.jfif" alt="logo" className="img-fluid w-50" />
+              <img src="/images/logo.jfif" alt="logo" className="img-fluid w-50" />
             </div>
           </div>
         </div>
