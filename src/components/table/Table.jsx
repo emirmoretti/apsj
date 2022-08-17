@@ -2,7 +2,7 @@ import React from "react";
 
 const Table = () => {
   return (
-    <div className="table-container p-4" data-aos="fade-up" data-aos-duration="3000">
+    <div className="table-container p-4 bg-white" data-aos="fade-up" data-aos-duration="3000">
       <h4 className="underline py-3 fs-3 fst-italic">Comisión Nacional</h4>
       <table class="table table-striped">
         <thead>
