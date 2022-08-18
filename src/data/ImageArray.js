@@ -1,12 +1,12 @@
-import image1 from '../assets/images/img1-min.jpeg'
-import image2 from '../assets/images/img2-min.jpeg'
-import image3 from '../assets/images/img3-min.jpeg'
-import image4 from '../assets/images/img4-min.jpeg'
-import image5 from '../assets/images/img5-min.jpeg'
-import image6 from '../assets/images/img6-min.jpeg'
-import image7 from '../assets/images/img7-min.jpeg'
-import image8 from '../assets/images/img8-min.jpeg'
-import image9 from '../assets/images/img9-min.jpeg'
+import image1 from '../assets/images/img1-min.jpg'
+import image2 from '../assets/images/img2-min.jpg'
+import image3 from '../assets/images/img3-min.jpg'
+import image4 from '../assets/images/img4-min.jpg'
+import image5 from '../assets/images/img5-min.jpg'
+import image6 from '../assets/images/img6-min.jpg'
+import image7 from '../assets/images/img7-min.jpg'
+import image8 from '../assets/images/img8-min.jpg'
+import image9 from '../assets/images/img9-min.jpg'
 
 export const listImage = [
     {
