@@ -15,7 +15,7 @@ const ContactForm = () => {
 
     emailjs.sendForm(service, template, form.current, key).then(
       (result) => {
-        alert("Mensaje enviado con exito.");
+        alert("Mensaje enviado con éxito!");
         form.current.reset();
       },
       (error) => {
