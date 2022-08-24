@@ -47,8 +47,8 @@ const Table = () => {
             <td>Servidoras de Corrientes</td>
           </tr>
           <tr>
-            <th scope="row">Graciela Noir (Servidora Nacional Suplente)</th>
-            <td>Servidora de Entre Ríos</td>
+            <th scope="row">Graciela Noir</th>
+            <td>Servidora Nacional Suplente de Entre Ríos</td>
           </tr>
           <tr>
             <th scope="row">
