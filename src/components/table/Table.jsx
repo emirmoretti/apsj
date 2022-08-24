@@ -24,30 +24,30 @@ const Table = () => {
             <th scope="row">
               Olga Rosario Anze <br /> Silvio Barreiro
             </th>
-            <td>Servidores Buenos Aires</td>
+            <td>Servidores de Buenos Aires</td>
           </tr>
           <tr>
             <th scope="row">
               Juan C. Bevilacqua <br /> María A. Tricarico
             </th>
-            <td>Servidores C.A.B.A</td>
+            <td>Servidores de C.A.B.A</td>
           </tr>
           <tr>
             <th scope="row">Silbana Berrocá </th>
-            <td>Servidora San Juan</td>
+            <td>Servidora de San Juan</td>
           </tr>
           <tr>
             <th scope="row">María Angélica Sack</th>
-            <td>Servidora Córdoba</td>
+            <td>Servidora de Córdoba</td>
           </tr>
           <tr>
             <th scope="row">
-              M. Isabel Solís <br /> María Ávalos
+              María Isabel Solís <br /> María Ávalos
             </th>
-            <td>Servidores de Formosa</td>
+            <td>Servidoras de Corrientes</td>
           </tr>
           <tr>
-            <th scope="row">Graciela Noir</th>
+            <th scope="row">Graciela Noir (Servidora Nacional Suplente)</th>
             <td>Servidora de Entre Ríos</td>
           </tr>
           <tr>
@@ -61,6 +61,18 @@ const Table = () => {
               Mirta Barrientos <br /> Carla Bratti
             </th>
             <td>Servidoras de Santa Cruz</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Ariel Alcaraz <br /> Julia Aranda
+            </th>
+            <td>Servidores de Formosa</td>
+          </tr>
+          <tr>
+            <th scope="row">
+              Karina Amicone
+            </th>
+            <td>Servidora de Neuquén</td>
           </tr>
         </tbody>
       </table>
