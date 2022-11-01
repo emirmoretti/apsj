@@ -1,14 +1,17 @@
 header {
     .navbar {
         padding: 14px 0px;
+
         //background-color: #C1554D !important;
-        > div {
+        >div {
             .navbar-brand {
                 display: flex;
                 align-items: center;
+
                 img {
                     border: 3px solid #e6ab67;
                 }
+
                 span {
                     padding: 5px 20px;
                     margin-left: 0px;
@@ -18,12 +21,14 @@ header {
                     font-size: 1rem;
                 }
             }
+
             #basic-navbar-nav {
-             //   justify-content: center;
+
+                //   justify-content: center;
                 .navbar-nav {
                     .nav-link {
                         color: black;
-                       // font-size: 17px !important;
+                        // font-size: 17px !important;
                         line-height: 30px !important;
                         //padding: 10px 15px !important;
                         font-weight: bold;
@@ -32,10 +37,12 @@ header {
                         text-decoration: none;
                         letter-spacing: 0.07em;
                         position: relative;
+
                         &:hover::after {
                             width: 100%;
                             right: 0;
                         }
+
                         &::after {
                             background: none repeat scroll 0 0 transparent;
                             bottom: 0;
@@ -47,6 +54,10 @@ header {
                             background: linear-gradient(to left, #f69ec4, #f9dd94 100%);
                             transition: width 0.5s ease 0s, right 0.5s ease 0s;
                             width: 0;
+                        }
+
+                        @media screen and (min-width: 1200px) {
+                            font-size: 13px !important;
                         }
                     }
                 }
