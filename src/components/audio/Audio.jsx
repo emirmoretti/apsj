@@ -8,7 +8,7 @@ const Audio = ({ audioUrl }) => {
   let urlAudio2 = `https://drive.google.com/uc?authuser=0&id=${id}&export=download
   `;
   let descargaLink = `https://drive.google.com/file/d/${id}/view`;
-
+  
   return (
     <div className="audio-container d-flex align-items-center justify-content-between">
       {/*<iframe src={audioUrl} ></iframe>*/}

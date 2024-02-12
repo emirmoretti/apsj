@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="fdb-block footer-small bg-dark p-4">
+    <footer className="footer fdb-block footer-small bg-dark p-4">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-md-8">
@@ -46,7 +46,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          <div class="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right text-white">© 2022 APSJ. All Rights Reserved</div>
+          <div className="col-12 col-md-4 mt-4 mt-md-0 text-center text-md-right text-white">© 2022 APSJ. All Rights Reserved</div>
         </div>
       </div>
     </footer>

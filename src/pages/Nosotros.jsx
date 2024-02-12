@@ -4,6 +4,8 @@ import Container from "react-bootstrap/Container";
 import img2 from "../assets/images/imagen-2.jpeg";
 
 import "./styles/Nosotros.scss";
+import poster1 from "../assets/images/Poster_Rostro_Jesucristo_Agonizante-1.webp";
+import poster2 from "../assets/images/Poster_Rostro_Jesucristo_Agonizante-2.webp";
 
 const Nosotros = () => {
   return (
@@ -12,13 +14,21 @@ const Nosotros = () => {
         <h2>Introducción a la Preciosísima Sangre de Jesucristo</h2>
         <Container>
           <div className="video-container">
-            <div className="ratio ratio-21x9">
-              <iframe
-                src="https://drive.google.com/file/d/1iTuTKvJUuI_hbKvi51fQCK1J4R95R0C5/preview"
-                allow="autoplay"
-                className="embed-responsive-item"
-                allowFullScreen
-              ></iframe>
+            <div className="ratio ratio-21x9 d-flex">
+              {
+                /*
+                <iframe
+                  src="https://drive.google.com/file/d/1iTuTKvJUuI_hbKvi51fQCK1J4R95R0C5/preview"
+                  allow="autoplay"
+                  className="embed-responsive-item"
+                  allowFullScreen
+                ></iframe>
+                 */
+              }
+              <div className="d-flex justify-content-center" data-aos="fade-up" data-aos-duration="3000">
+                <img src={poster1} alt={poster1} className="img-fluid shadow-lg bg-body" style={{margin: '0 auto'}}/>
+                <img src={poster2} alt={poster2} className="img-fluid shadow-lg bg-body" style={{margin: '0 auto'}}/>
+              </div>
             </div>
           </div>
         </Container>

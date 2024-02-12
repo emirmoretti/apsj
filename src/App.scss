@@ -52,6 +52,7 @@ hr {
     padding: 8px 0px;
     text-transform: uppercase;
 }
+
 .sub-titulo {
     text-transform: uppercase;
     padding: 5px 0px;
@@ -69,9 +70,92 @@ hr {
     justify-content: center;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     -moz-appearance: none;
-    appearance: none; 
+    appearance: none;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.footer {
+    margin-top: auto;
+}
+.p-datatable {
+    border: 1px solid black;
+}
+.p-dropdown-items {
+    padding: 0;
+}
+
+.box-shadow {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.p-datatable-thead {
+    th {
+        border: 1px solid black;
+    }
+}
+
+.p-datatable-tbody {
+    tr:hover {
+        background: #eaecec;
+    }
+}
+
+.ql-snow.ql-toolbar {
+    display: block;
+    background: #eaecec;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+
+
+.ql-bubble .ql-editor {
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.ql-editor {
+    min-height: 30em;
+    background-color: white;
+}
+
+
+.react-quill-container {
+    max-height: 120px;
+    /* Altura máxima deseada */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+     .ql-container.ql-snow {
+        border: none;
+        border-radius: 0.5em;
+    }
+}
+
+.react-quill-container::after {
+    content: '';
+    /* Puntos suspensivos */
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white 50%);
+    padding: 0 8px;
+    /* Ajusta el espaciado según tus preferencias */
+}
+
+#new-section {
+    .ql-container  {
+        border: none;
+    }
+    .ql-editor {
+        background: none;
+    }
 }

@@ -16,7 +16,7 @@ const Hero = () => {
                 de Nuestro Sr
                 <span className="color"> Jesucristo </span> en Argentina
                 <span className="span-img">
-                  <img src={arg} alt="" srcset="" width="42px" />
+                  <img src={arg} alt="" width="42px" />
                 </span>
               </h1>
               <p className="text-white fst-italic"> - Sangre Preciosa de Jesucristo, Salvanos a nosotros y al mundo entero.</p>

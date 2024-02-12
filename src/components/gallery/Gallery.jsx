@@ -30,7 +30,7 @@ const Gallery = ({ galleryImages }) => {
   };
 
   return (
-    <div id='gallery-section' className="gallery-section min-vh-100">
+    <div id='gallery-section' className="gallery-section">
       <Container>
         {openModal && (
           <div className="sliderWrap">
