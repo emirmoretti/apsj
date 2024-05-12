@@ -30,9 +30,11 @@ const FormPost = ({ editPostData }) => {
 
     useEffect(() => {
         if (state && state.postToEdit) {
-            const { title, content } = state.postToEdit;
+            console.log(state, 'State')
+            const { title, content, image } = state.postToEdit;
             setTitle(title);
             setValue(content);
+            setImage(image);
         }
     }, [state]);
 

@@ -37,9 +37,6 @@ const Contact = () => {
           <h4 className="underline lh-lg">
             Para más información sobre esta Devoción y sus cenáculos de Oración cerca de tu localidad contactar
           </h4>
-          <p className="fs-5 pt-4">
-            Servidor Nacional <span className="fw-bold">Jose Luis Ejarque</span>, Teléfono/WhatsApp: +54 264 5187822.
-          </p>
         </div>
         <Table />
       </Container>
